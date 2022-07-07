@@ -1,0 +1,114 @@
+
+body{
+    margin: 0%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.head{
+    
+    color: rgb(245, 245, 245);
+    background-image: url(images/donation8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 120px;
+    text-shadow: 1px 1px 10px black;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.donation-box{
+    background-color: #ca4853;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    text-shadow: none;
+    
+}
+
+
+.flexible-container {
+    display: flex;
+    padding-left: 370px;
+    padding-top: 50px;
+}
+
+.box{
+
+    width: 70px;
+    height: 70px;
+    border: 2px solid gray;
+    background-color: white;
+    color: grey;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+.selected-box{
+
+    width: 70px;
+    height: 70px;
+    border: 2px solid #ca4853;
+    background-color: white;
+    color: #ca4853;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+input{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid gray ;
+}
+
+.gray-color{
+    color: gray;
+}
+
+.flexible-plan{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.box-plan{
+    width: 30%;
+    padding:2%;
+    text-align: left;
+    margin: 2%;
+
+}
+
+.box-plan img{
+    height: 50px;
+}
+
+.blue{
+    background-color: #7fffd480;
+}
+
+.pink{
+    background-color: #ff69b48e;
+}
+
+.red{
+    background-color: #dc143c80;
+}
+
+p{
+    font-weight: lighter ;
+}
+
+.albums{
+    padding: 20px;
+    margin: 9px;
+}
